@@ -1,0 +1,49 @@
+# --- Price features ---
+df['price_delta'] = df['Amount'] - df['Last_Years_Price']
+df['price_delta_pct'] = (
+    df['price_delta'] / df['Last_Years_Price'].replace(0, np.nan) * 100
+).round(2)
+ 
+# --- Discount features ---
+# Starting_Gross = original quoted gross, Gross = final billed gross
+# Difference = discount actually applied this cycle
+df['discount_applied'] = (df['Gross'] < df['Starting_Gross']).astype(int)
+df['discount_value']   = (df['Starting_Gross'] - df['Gross']).clip(lower=0)
+ 
+# --- Payment behaviour ---
+# Payment_Timeframe: negative = early, 0 = on time, positive = late
+df['paid_late']  = (df['Payment_Timeframe'] > 0).astype('Int64')
+df['paid_early'] = (df['Payment_Timeframe'] < 0).astype('Int64')
+ 
+# --- Stickiness: auto-renewal AND saved payment card ---
+# Customers with both are deeply embedded — lowest churn risk
+df['fully_sticky'] = (
+    (df['Current_Auto_Renewal_Flag'] == 1) &
+    (df['Current_World_Pay_Token'] == 1)
+).astype(int)
+ 
+# --- Connection features ---
+# 94% missing = independent contractor with no group connections
+# 6% with values = multi-site/group customers with high switching cost
+df['has_connections'] = (
+    df['Connection_Qty'].fillna(0) > 0
+).astype(int)
+ 
+df['connection_revenue_share'] = (
+    df['Connection_Net'].fillna(0) /
+    df['Amount'].replace(0, np.nan)
+).fillna(0).round(4)
+ 
+# --- Days between proforma sent and renewal date ---
+# Shorter gap = less time for customer to consider churning
+df['days_proforma_to_renewal'] = (
+    df['Prospect_Renewal_Date'] - df['Proforma_Date']
+).dt.days
+ 
+# --- Band change from last year ---
+# Band change = upsell (lower churn risk) or downsell (higher churn risk)
+df['band_changed'] = (
+    df['Band'].str.strip() != df['Last_Band'].str.strip()
+).astype('Int64')
+
+this text will help while doing feature engineering
