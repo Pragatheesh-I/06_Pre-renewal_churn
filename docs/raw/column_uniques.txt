@@ -1,0 +1,2013 @@
+Detected id-like columns (excluded): Last_Total_Net_Paid, Total_Net_Paid, rc_cancel_response_cat_other_(misidentified), rc_cancel_response_cat_pricing___financial_considerations, rc_churn_cat_switch___change___alternate_provider, rc_desire_cancel_undecided, rc_justification_cat_other_(misidentified), rc_renewal_reason_cat_other_(misidentified), rc_stay_arg_cat_other_(misidentified), year_key
+Rows: 112089
+
+Column: Co_Ref
+Type: categorical
+Unique count (including NaN): 45722
+Missing: 0 (0.00%)
+Values: 45722 unique values (showing first 50): VT6174, VD3828, DV8120, EZ9894, FA8957, QS2598, CJ9355, FP1608, TZ9717, UP7099, PH4375, XR6623, EC7710, XB1571, HW0449, YK0157, FF9526, OV0744, DF2920, DV4517, JB9276, UH8358, HK3741, KZ2465, IN1873, SL0135, XN5284, LV5964, RZ3240, KX6030, NA1024, HZ9981, CP3008, DV2302, SL4621, VM0154, PT2675, BU7217, HM8968, KA8573, AV7847, VE1025, IE8377, MQ1920, ZZ6893, MM5057, LN5091, NU4078, EC8393, LQ9972
+--------------------------------------------------------------------------------
+Column: Renewal_Month
+Type: categorical
+Unique count (including NaN): 42
+Missing: 0 (0.00%)
+Values (42): 2024-11-01, 2025-08-01, 2025-03-01, 2025-06-01, 2025-04-01, 2025-07-01, 2025-09-01, 2025-05-01, 2025-01-01, 2025-02-01, 2026-01-01, 2025-10-01, 2025-12-01, 2025-11-01, 2024-12-01, 2026-03-01, 2026-02-01, 2026-04-01, 2026-05-01, 2024-04-01, 2024-05-01, 2024-01-01, 2024-06-01, 2024-10-01, 2024-08-01, 2024-09-01, 2024-02-01, 2024-03-01, 2024-07-01, 2023-10-01, 2023-06-01, 2023-09-01, 2023-04-01, 2023-01-01, 2023-02-01, 2023-07-01, 2023-03-01, 2023-05-01, 2023-08-01, 2023-11-01, 2023-12-01, 2050-07-01
+--------------------------------------------------------------------------------
+Column: Connection_Net
+Type: numerical
+Unique count (including NaN): 151
+Missing: 0 (0.00%)
+Values: 151 unique values (showing first 50): 0.0, 55.0, 2133.0, 165.0, 275.0, 1320.0, 220.0, 330.0, 550.0, 1430.0, 79.0, 158.0, 553.0, 237.0, 395.0, 474.0, 316.0, 948.0, 790.0, 632.0, 110.0, 880.0, 440.0, 385.0, 605.0, 1265.0, 1264.0, 495.0, 770.0, 1106.0, 1343.0, 1100.0, 869.0, 1375.0, 2200.0, 935.0, 660.0, 1045.0, 711.0, 990.0, 825.0, 715.0, 1501.0, 1185.0, 1896.0, 1580.0, 1027.0, 1155.0, 1210.0, 1540.0
+--------------------------------------------------------------------------------
+Column: Connection_Qty
+Type: numerical
+Unique count (including NaN): 49
+Missing: 0 (0.00%)
+Values (49): 0.0, 1.0, 27.0, 3.0, 5.0, 24.0, 4.0, 6.0, 10.0, 26.0, 2.0, 7.0, 12.0, 8.0, 16.0, 11.0, 23.0, 9.0, 14.0, 17.0, 20.0, 25.0, 40.0, 19.0, 18.0, 15.0, 13.0, 21.0, 22.0, 28.0, 34.0, 30.0, 29.0, 31.0, 36.0, 37.0, 45.0, 48.0, 32.0, 41.0, 39.0, 33.0, 44.0, 42.0, 47.0, 46.0, 35.0, 38.0, 43.0
+--------------------------------------------------------------------------------
+Column: Discount_Amount
+Type: categorical
+Unique count (including NaN): 13
+Missing: 0 (0.00%)
+Values (13): 0, 0, 35.00%, 20.00%, 30.00%, 40.00%, 10.00%, 50.00%, 25.00%, 15.00%, 45.00%, 100.00%, 13.30%
+--------------------------------------------------------------------------------
+Column: Sustainability_Score
+Type: numerical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): 8.0, 9.5, 9.0
+--------------------------------------------------------------------------------
+Column: Total_Renewal_Score_New
+Type: numerical
+Unique count (including NaN): 33
+Missing: 0 (0.00%)
+Values (33): 42.5, 41.5, 33.0, 44.5, 40.5, 43.0, 41.0, 42.0, 44.0, 43.5, 38.5, 39.0, 40.0, 39.5, 32.0, 31.5, 45.5, 45.0, 46.0, 46.5, 33.5, 34.5, 34.0, 32.5, 35.0, 35.5, 36.0, 37.5, 36.5, 37.0, 31.0, 30.5, 38.0
+--------------------------------------------------------------------------------
+Column: Starting_Connection_Net
+Type: numerical
+Unique count (including NaN): 162
+Missing: 0 (0.00%)
+Values: 162 unique values (showing first 50): 0.0, 79.0, 198.0, 237.0, 316.0, 297.0, 395.0, 3960.0, 55.0, 165.0, 220.0, 110.0, 275.0, 550.0, 440.0, 474.0, 385.0, 158.0, 632.0, 770.0, 660.0, 1320.0, 605.0, 1650.0, 1045.0, 495.0, 1027.0, 935.0, 553.0, 1185.0, 2035.0, 715.0, 825.0, 1386.0, 330.0, 1155.0, 3600.0, 150.0, 4752.0, 2090.0, 750.0, 450.0, 1584.0, 1738.0, 880.0, 1100.0, 3762.0, 975.0, 948.0, 990.0
+--------------------------------------------------------------------------------
+Column: Starting_Connection_Qty
+Type: numerical
+Unique count (including NaN): 49
+Missing: 0 (0.00%)
+Values (49): 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 40.0, 10.0, 8.0, 6.0, 7.0, 14.0, 12.0, 24.0, 11.0, 30.0, 19.0, 9.0, 13.0, 17.0, 15.0, 37.0, 21.0, 48.0, 38.0, 16.0, 22.0, 20.0, 44.0, 36.0, 42.0, 43.0, 23.0, 27.0, 29.0, 33.0, 28.0, 18.0, 25.0, 31.0, 34.0, 26.0, 45.0, 32.0, 41.0, 39.0, 47.0, 46.0, 35.0
+--------------------------------------------------------------------------------
+Column: Last_Years_Price
+Type: numerical
+Unique count (including NaN): 2639
+Missing: 0 (0.00%)
+Values: 2639 unique values (showing first 50): 799.0, 999.0, 739.8, 120.0, 1139.0, 739.0, 837.8, 919.0, 949.0, 1174.0, 1159.0, 1349.0, 1099.0, 140.0, 1199.0, 1489.0, 1274.0, 85.0, 1754.0, 1279.0, 1469.0, 1309.0, 889.0, 1719.0, 1499.0, 30.0, 1239.0, 1069.0, 1524.0, 210.0, 1579.0, 869.0, 679.0, 12.0, 2389.0, 1227.6, 635.0, 1798.0, 1603.0, 899.0, 966.2, 749.0, 5746.0, 150.0, 58.5, 40.0, 1009.0, 829.0, 653.4, 1290.2
+--------------------------------------------------------------------------------
+Column: Auto_Renewal_Score
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 9, 8
+--------------------------------------------------------------------------------
+Column: Status_Scores
+Type: numerical
+Unique count (including NaN): 4
+Missing: 0 (0.00%)
+Values (4): 9, 0, 8, 7
+--------------------------------------------------------------------------------
+Column: Anchoring_Score
+Type: numerical
+Unique count (including NaN): 4
+Missing: 0 (0.00%)
+Values (4): 7.5, 9.5, 9.0, 8.5
+--------------------------------------------------------------------------------
+Column: Tenure_Scores
+Type: numerical
+Unique count (including NaN): 6
+Missing: 0 (0.00%)
+Values (6): 9.0, 8.0, 9.5, 8.5, 7.5, 7.0
+--------------------------------------------------------------------------------
+Column: Proforma_Auto_Renewal
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 1, 0
+--------------------------------------------------------------------------------
+Column: Proforma_World_Pay_Token
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 1, 0
+--------------------------------------------------------------------------------
+Column: Proforma_Date
+Type: categorical
+Unique count (including NaN): 183
+Missing: 0 (0.00%)
+Values: 183 unique values (showing first 50): 2024-09-06, 2025-06-05, 2025-01-10, 2025-04-16, 2025-01-08, 2025-04-14, 2025-02-07, 2025-05-12, 2025-02-10, 2025-01-06, 2025-07-07, 2025-07-04, 2025-04-10, 2025-06-09, 2025-05-09, 2025-07-09, 2025-03-05, 2025-06-11, 2024-11-11, 2024-12-09, 2024-12-06, 2024-09-05, 2024-11-07, 2025-03-07, 2025-02-05, 2024-12-11, 2025-11-12, 2025-08-08, 2025-03-10, 2025-10-09, 2025-09-03, 2025-09-05, 2025-11-13, 2025-05-14, 2025-08-06, 2025-11-10, 2025-09-08, 2024-10-08, 2024-11-13, 2026-01-07, 2025-10-07, 2025-12-05, 2026-01-06, 2024-10-10, 2025-08-11, 2025-12-09, 2025-12-08, 2026-01-09, 2024-12-12, 2025-10-08
+--------------------------------------------------------------------------------
+Column: Current_Anchorings
+Type: numerical
+Unique count (including NaN): 106
+Missing: 0 (0.00%)
+Values: 106 unique values (showing first 50): 0, 4, 5, 3, 2, 1, 6, 7, 11, 8, 10, 9, 14, 12, 15, 22, 18, 19, 17, 13, 16, 23, 20, 26, 27, 21, 53, 37, 36, 24, 33, 30, 41, 44, 28, 25, 40, 165, 34, 35, 60, 78, 122, 56, 54, 38, 71, 191, 46, 62
+--------------------------------------------------------------------------------
+Column: Payment_Timeframe
+Type: numerical
+Unique count (including NaN): 287
+Missing: 0 (0.00%)
+Values: 287 unique values (showing first 50): 0.0, 8.0, -1.0, 21.0, 1.0, -4.0, 39.0, 36.0, -26.0, 6.0, 38.0, 5.0, -60.0, -22.0, -3.0, 2.0, -8.0, 20.0, -10.0, -9.0, -17.0, 24.0, -70.0, -14.0, 7.0, -16.0, -56.0, -44.0, -18.0, -20.0, 9.0, -42.0, 14.0, 11.0, -53.0, -6.0, -21.0, -2.0, -13.0, -15.0, -37.0, -7.0, -30.0, -5.0, -45.0, -68.0, -12.0, -69.0, -64.0, -50.0
+--------------------------------------------------------------------------------
+Column: Registration_Date
+Type: categorical
+Unique count (including NaN): 5751
+Missing: 0 (0.00%)
+Values: 5751 unique values (showing first 50): 2021-11-05, 2024-08-09, 2015-03-12, 2014-06-27, 2022-03-25, 2020-06-22, 2009-03-16, 2017-11-08, 2018-11-20, 2022-04-04, 2020-04-14, 2017-11-15, 2013-06-27, 2024-07-17, 2006-04-28, 2024-03-28, 2019-09-10, 2024-09-05, 2017-04-25, 2020-07-17, 2024-06-16, 2016-08-26, 2024-07-26, 2021-09-30, 2024-05-13, 2019-09-04, 2010-08-12, 2021-01-22, 2024-02-09, 2019-02-22, 2020-02-27, 2022-05-06, 2018-02-06, 2021-08-19, 2021-05-31, 2013-04-23, 2020-11-25, 2022-02-16, 2022-01-11, 2023-01-27, 2024-02-28, 2020-01-29, 2020-01-14, 2020-01-24, 2022-01-24, 2023-07-11, 2021-09-16, 2020-05-10, 2023-07-10, 2022-05-24
+--------------------------------------------------------------------------------
+Column: Proforma_Account_Stage
+Type: categorical
+Unique count (including NaN): 7
+Missing: 0 (0.00%)
+Values (7): Published, Membership Only, Renewal Process, Vetting, Suspended, Retired, Not_Started
+--------------------------------------------------------------------------------
+Column: Proforma_Audit_Status
+Type: categorical
+Unique count (including NaN): 32
+Missing: 0 (0.00%)
+Values (32): Accredited, Failed- Renewal Questionnaire not received, Renewal Questionnaire Sent, Renewal Questionnaire Received, Failed- Renewal Additional Information Not Received, Initial Questionnaire Received, Failed- Initial additional info not received, Renewal report sent - Awaiting information, 1st Renewal questionnaire reminder, Report sent - Awaiting information, Failed- Initial Questionnaire not received, SUSPENDED - 2nd reminder SSiP Expired, SUSPENDED - 1st reminder SSiP Expired, Final renewal questionnaire reminder, Accredited - SSiP due to expire, SSiP Expired - 1st Reminder, SUSPENDED - SSiP Expired, Final Reminder (Initial) Additional Information Not Sent, Renewal additional information received, 1st Reminder - Renewal additional info, 1st reminder initial add info, Final reminder - Renewal additional info, Additional information received, Initial - 1st Questionnaire reminder sent, Initial Questionnaire Sent, Withdrawn from scheme, Accred Due to Expire, Unknown, Failed- Accreditation removed SSiP exp, Suspended - Insurance Out-of-Date, unknown, Delete 38
+--------------------------------------------------------------------------------
+Column: Current_Auto_Renewal_Flag
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 1, 0
+--------------------------------------------------------------------------------
+Column: Current_World_Pay_Token
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 1, 0
+--------------------------------------------------------------------------------
+Column: Renewal_Score_At_Release
+Type: numerical
+Unique count (including NaN): 29
+Missing: 0 (0.00%)
+Values (29): 26.0, 24.5, 24.0, 27.0, 23.5, 25.5, 23.0, 26.5, 25.0, 21.5, 27.5, 22.0, 28.0, 22.5, 15.5, 20.5, 16.5, 28.2, 27.2, 24.7, 26.7, 27.7, 25.2, 26.2, 25.7, 24.2, 21.0, 22.7, 23.7
+--------------------------------------------------------------------------------
+Column: Proforma_Membership_Status
+Type: categorical
+Unique count (including NaN): 5
+Missing: 0 (0.00%)
+Values (5): Accredited, Member Only, In Progress, Non Member, Unknown
+--------------------------------------------------------------------------------
+Column: Proforma_Approved_Lists
+Type: numerical
+Unique count (including NaN): 133
+Missing: 0 (0.00%)
+Values: 133 unique values (showing first 50): 1.0, 2.0, 3.0, 5.0, 4.0, 7.0, 6.0, 10.0, 8.0, 11.0, 9.0, 13.0, 12.0, 15.0, 24.0, 21.0, 17.0, 19.0, 20.0, 23.0, 22.0, 18.0, 16.0, 31.0, 14.0, 27.0, 28.0, 55.0, 38.0, 26.0, 30.0, 36.0, 29.0, 39.0, 25.0, 41.0, 44.0, 37.0, 48.0, 45.0, 178.0, 32.0, 34.0, 56.0, 77.0, 195.0, 50.0, 58.0, 43.0, 46.0
+--------------------------------------------------------------------------------
+Column: Tenure_Years
+Type: numerical
+Unique count (including NaN): 28
+Missing: 0 (0.00%)
+Values (28): 3.0, 1.0, 10.0, 11.0, 5.0, 16.0, 7.0, 6.0, 12.0, 19.0, 8.0, 9.0, 4.0, 15.0, 2.0, 13.0, 17.0, 14.0, 18.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 0.0, 26.0, 30.0
+--------------------------------------------------------------------------------
+Column: Band
+Type: categorical
+Unique count (including NaN): 14
+Missing: 0 (0.00%)
+Values (14): Band C1, Band D, Band C2, Band E, Band B, Group, Band I, Band J, Band H, Band A, Band F2, Band F1, Band G, Band F
+--------------------------------------------------------------------------------
+Column: Prospect_Renewal_Date
+Type: categorical
+Unique count (including NaN): 1243
+Missing: 0 (0.00%)
+Values: 1243 unique values (showing first 50): 2024-11-05, 2025-08-09, 2025-03-12, 2025-06-29, 2025-03-25, 2025-06-22, 2025-03-17, 2024-11-08, 2024-11-20, 2025-04-04, 2025-04-14, 2024-11-15, 2025-06-27, 2025-07-17, 2025-04-28, 2025-03-28, 2025-09-10, 2025-09-05, 2025-04-25, 2025-06-16, 2025-08-26, 2025-07-26, 2025-09-30, 2025-05-13, 2025-09-04, 2025-08-12, 2025-01-22, 2025-02-09, 2025-02-22, 2025-02-27, 2025-05-06, 2025-02-06, 2025-08-19, 2025-05-31, 2025-04-23, 2024-11-25, 2025-02-16, 2025-01-11, 2025-01-27, 2025-02-28, 2025-01-29, 2025-01-14, 2025-01-24, 2025-07-11, 2025-09-16, 2025-05-10, 2025-07-10, 2025-05-24, 2025-04-22, 2025-03-07
+--------------------------------------------------------------------------------
+Column: Closed_Date
+Type: categorical
+Unique count (including NaN): 1216
+Missing: 0 (0.00%)
+Values: 1216 unique values (showing first 50): 2024-11-05, 2025-08-09, 2025-03-12, 2025-06-29, 2025-03-25, 2025-06-22, 2025-03-17, 2024-11-08, 2024-11-20, 2025-04-04, 2025-04-14, 2024-11-15, 2025-06-27, 2025-07-17, 2025-04-28, 2025-03-28, 2025-09-10, 2025-09-05, 2025-04-25, 2025-06-16, 2025-08-26, 2025-07-26, 2025-09-30, 2025-05-13, 2025-09-04, 2025-08-12, 2025-01-22, 2025-02-09, 2025-02-22, 2025-02-27, 2025-05-06, 2025-02-06, 2025-08-19, 2025-05-31, 2025-04-23, 2024-11-25, 2025-02-16, 2025-01-11, 2025-01-27, 2025-02-28, 2025-01-29, 2025-01-14, 2025-01-24, 2025-07-11, 2025-09-16, 2025-05-10, 2025-07-10, 2025-05-24, 2025-04-22, 2025-03-07
+--------------------------------------------------------------------------------
+Column: Prospect_Status
+Type: categorical
+Unique count (including NaN): 37
+Missing: 0 (0.00%)
+Values (37): Renewed, Decline 3rd party accreditation requests, No Longer Trading, Refused to Discuss, Promised to Pay - Fees not Received, Competitor Accreditation, Not Value for Money, Not Affordable, Poor Customer Service, Do Not Work for Client, Not to be contacted, Supply Only, Insufficient Contract Value, unknown, Contact Made, Invoiced, Application and Money In, Renewal Proforma Sent, Cannot Pass Audit, Need Time To Consider > 30 days, Non Responsive, Client Exemption, Outside UK, Anchor client close down, Attempted Contact, Intention to Proceed, Need time to consider, Need time to consider - 60 days, Insufficient Work from Authorities, Need Time To Consider < 30 days, Lost Anchor Client, Price Increase, Not Interested, Authority no longer a client, Contact Made Deciding, Payment En Route, Intention to Proceed (including auto email)
+--------------------------------------------------------------------------------
+Column: Starting_Net
+Type: numerical
+Unique count (including NaN): 1135
+Missing: 0 (0.00%)
+Values: 1135 unique values (showing first 50): 919, 799, 949, 1279, 1159, 1349, 1099, 999, 1489, 1274, 1139, 1174, 1239, 1754, 1469, 1309, 1719, 1499, 1069, 1524, 1579, 599, 704, 5297, 2039, 2009, 3838, 684, 504, 1849, 739, 2389, 5746, 639, 2199, 2424, 764, 2169, 4237, 2409, 4636, 2249, 3129, 3439, 5434, 3899, 2679, 4399, 3299, 4848
+--------------------------------------------------------------------------------
+Column: Starting_Vat
+Type: numerical
+Unique count (including NaN): 1135
+Missing: 0 (0.00%)
+Values: 1135 unique values (showing first 50): 183.8, 159.8, 189.8, 255.8, 231.8, 269.8, 219.8, 199.8, 297.8, 254.8, 227.8, 0.0, 234.8, 247.8, 350.8, 293.8, 261.8, 343.8, 299.8, 213.8, 304.8, 315.8, 2.32, 119.8, 140.8, 1059.4, 401.8, 767.6, 136.8, 100.8, 407.8, 369.8, 147.8, 477.8, 1149.2, 127.8, 439.8, 484.8, 152.8, 433.8, 847.4, 927.2, 449.8, 625.8, 687.8, 1086.8, 779.8, 535.8, 879.8, 659.8
+--------------------------------------------------------------------------------
+Column: Starting_Gross
+Type: numerical
+Unique count (including NaN): 1310
+Missing: 0 (0.00%)
+Values: 1310 unique values (showing first 50): 1102.8, 958.8, 1138.8, 1534.8, 1390.8, 1618.8, 1318.8, 1198.8, 1786.8, 1528.8, 1366.8, 1174.0, 1408.8, 1486.8, 2104.8, 1762.8, 1570.8, 2062.8, 1798.8, 1282.8, 1828.8, 1099.0, 949.0, 1894.8, 1349.0, 1239.0, 919.0, 1069.0, 1309.0, 1161.32, 1274.0, 1719.0, 1499.0, 799.0, 1279.0, 1159.0, 1579.0, 999.0, 1469.0, 1754.0, 1524.0, 718.8, 844.8, 6356.4, 2039.0, 2410.8, 4605.6, 820.8, 604.8, 2446.8
+--------------------------------------------------------------------------------
+Column: Starting_Membership_Net
+Type: numerical
+Unique count (including NaN): 123
+Missing: 0 (0.00%)
+Values: 123 unique values (showing first 50): 664, 1024, 1214, 964, 814, 864, 1444, 500, 4907, 1649, 3518, 300, 540, 1999, 5286, 1779, 3847, 2049, 4176, 2879, 3189, 4834, 3649, 2429, 4149, 3049, 4528, 5821, 5665, 4505, 6150, 320, 6044, 8453, 6479, 2549, 2199, 5492, 5163, 10427, 10756, 7137, 6423, 7939, 8697, 9076, 12487, 7560, 7181, 6802
+--------------------------------------------------------------------------------
+Column: Starting_Package_Net
+Type: numerical
+Unique count (including NaN): 21
+Missing: 0 (0.00%)
+Values (21): 120, 0, 150, 140, 175, 105, 190, 160, 85, 100, 225, 125, 60, 70, 200, 115, 145, 185, 55, 155, 80
+--------------------------------------------------------------------------------
+Column: Starting_PQQ_Net
+Type: numerical
+Unique count (including NaN): 24
+Missing: 0 (0.00%)
+Values (24): 135, 99, 390, 200, 320, 460, 250, 600, 810, 530, 880, 1370, 950, 740, 670, 1790, 1860, 1090, 1160, 0, 1720, 1510, 1020, 1230
+--------------------------------------------------------------------------------
+Column: Gross
+Type: numerical
+Unique count (including NaN): 2823
+Missing: 0 (0.00%)
+Values: 2823 unique values (showing first 50): 958.8, 1102.8, 1138.8, 1390.8, 1318.8, 1618.8, 1198.8, 1438.8, 1786.8, 1528.8, 1366.8, 1174.0, 1408.8, 1486.8, 2104.8, 1534.8, 1762.8, 1570.8, 1066.8, 2062.8, 1798.8, 1282.8, 1828.8, 1099.0, 1042.8, 814.8, 949.0, 762.0, 1078.8, 898.8, 1894.8, 1349.0, 1239.0, 1210.8, 994.8, 838.8, 1018.8, 856.8, 1069.0, 1309.0, 799.0, 810.0, 930.0, 1161.32, 910.8, 1588.8, 919.0, 1274.0, 1719.0, 1192.8
+--------------------------------------------------------------------------------
+Column: Membership_Net
+Type: numerical
+Unique count (including NaN): 863
+Missing: 0 (0.00%)
+Values: 863 unique values (showing first 50): 664.0, 1024.0, 964.0, 814.0, 1214.0, 864.0, 1064.0, 1444.0, 634.0, 614.0, 544.0, 514.0, 500.0, 764.0, 754.0, 714.0, 564.0, 579.0, 540.0, 474.0, 1014.0, 1094.0, 739.0, 939.0, 879.0, 1034.0, 904.0, 554.0, 694.0, 789.0, 604.0, 674.0, 924.0, 774.0, 744.0, 464.0, 1114.0, 874.0, 414.0, 829.0, 914.0, 1244.0, 1074.0, 589.0, 704.0, 534.0, 1304.0, 994.0, 684.0, 524.0
+--------------------------------------------------------------------------------
+Column: Package_Net
+Type: numerical
+Unique count (including NaN): 121
+Missing: 0 (0.00%)
+Values: 121 unique values (showing first 50): 0.0, 120.0, 150.0, 140.0, 175.0, 100.0, 108.0, 96.0, 126.0, 112.0, 60.0, 90.0, 72.0, 135.0, 119.0, 70.0, 113.75, 75.0, 105.0, 127.5, 112.5, 84.0, 78.0, 122.5, 148.75, 98.0, 157.5, 77.0, 102.0, 131.25, 97.5, 85.0, 160.0, 190.0, 152.0, 144.0, 225.0, 180.0, 136.0, 128.0, 133.0, 95.0, 161.5, 168.75, 80.0, 202.5, 104.0, 114.0, 171.0, 125.0
+--------------------------------------------------------------------------------
+Column: PQQNet
+Type: numerical
+Unique count (including NaN): 110
+Missing: 0 (0.00%)
+Values: 110 unique values (showing first 50): 135, 460, 390, 250, 70, 320, 0, 600, 810, 740, 530, 880, 29, 49, 9, 85, 1160, 150, 36, 65, 105, 950, 140, -71, 45, -131, -95, -36, 234, -50, 200, 99, 69, 670, 1790, 1860, 1090, -111, -101, -65, 1020, 59, 5, -15, -11, -51, 19, 25, -151, -91
+--------------------------------------------------------------------------------
+Column: Prospect_Outcome
+Type: categorical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): Won, Churned
+--------------------------------------------------------------------------------
+Column: Payment_Method
+Type: categorical
+Unique count (including NaN): 5
+Missing: 0 (0.00%)
+Values (5): CARD, BACS, WORLD PAY, CHEQUE, UNKNOWN
+--------------------------------------------------------------------------------
+Column: Amount
+Type: numerical
+Unique count (including NaN): 1135
+Missing: 0 (0.00%)
+Values: 1135 unique values (showing first 50): 919, 799, 949, 1279, 1159, 1349, 1099, 999, 1489, 1274, 1139, 1174, 1239, 1754, 1469, 1309, 1719, 1499, 1069, 1524, 1579, 599, 704, 5297, 2039, 2009, 3838, 684, 504, 1849, 739, 2389, 5746, 639, 2199, 2424, 764, 2169, 4237, 2409, 4636, 2249, 3129, 3439, 5434, 3899, 2679, 4399, 3299, 4848
+--------------------------------------------------------------------------------
+Column: Total_Amount
+Type: numerical
+Unique count (including NaN): 2578
+Missing: 0 (0.00%)
+Values: 2578 unique values (showing first 50): 799.0, 919.0, 949.0, 1159.0, 1099.0, 1349.0, 999.0, 1199.0, 1489.0, 1274.0, 1139.0, 1174.0, 1239.0, 1754.0, 1279.0, 1469.0, 1309.0, 889.0, 1719.0, 1499.0, 1069.0, 1524.0, 869.0, 679.0, 635.0, 899.0, 749.0, 1579.0, 1009.0, 829.0, 699.0, 849.0, 714.0, 675.0, 775.0, 759.0, 1324.0, 994.0, 1074.0, 1039.0, 1014.0, 1169.0, 1179.0, 1124.0, 689.0, 1149.0, 924.0, 739.0, 649.0, 809.0
+--------------------------------------------------------------------------------
+Column: Connection_Group
+Type: categorical
+Unique count (including NaN): 9
+Missing: 0 (0.00%)
+Values (9): 1, 2, 2, 3, 4 to 9, 10+, 1, Unknown, Independent
+--------------------------------------------------------------------------------
+Column: Tenure_Group
+Type: categorical
+Unique count (including NaN): 4
+Missing: 0 (0.00%)
+Values (4): 3, 1, 4+, 2
+--------------------------------------------------------------------------------
+Column: #_of_Connection
+Type: numerical
+Unique count (including NaN): 133
+Missing: 0 (0.00%)
+Values: 133 unique values (showing first 50): 1.0, 2.0, 3.0, 5.0, 4.0, 7.0, 6.0, 10.0, 8.0, 11.0, 9.0, 13.0, 12.0, 15.0, 24.0, 21.0, 17.0, 19.0, 20.0, 23.0, 22.0, 18.0, 16.0, 31.0, 14.0, 27.0, 28.0, 55.0, 38.0, 26.0, 30.0, 36.0, 29.0, 39.0, 25.0, 41.0, 44.0, 37.0, 48.0, 45.0, 178.0, 32.0, 34.0, 56.0, 77.0, 195.0, 50.0, 58.0, 43.0, 46.0
+--------------------------------------------------------------------------------
+Column: Last_Renewal
+Type: categorical
+Unique count (including NaN): 30
+Missing: 0 (0.00%)
+Values (30): 2023-11-01, No_History, 2024-03-01, 2024-06-01, 2024-04-01, 2024-09-01, 2024-07-01, 2024-08-01, 2024-01-01, 2024-02-01, 2024-05-01, 2025-01-01, 2024-10-01, 2024-12-01, 2024-11-01, 2023-12-01, 2025-03-01, 2025-02-01, 2025-04-01, 2025-05-01, 2023-04-01, 2023-05-01, 2023-01-01, 2023-06-01, 2023-10-01, 2023-08-01, 2023-09-01, 2023-02-01, 2023-03-01, 2023-07-01
+--------------------------------------------------------------------------------
+Column: Last_Band
+Type: categorical
+Unique count (including NaN): 15
+Missing: 0 (0.00%)
+Values (15): Band B, New_Customer, Band C1, Band C2, Band D, Band E, Band F1, Band H, Band G, Band F2, Group, Band J, Band I, Band A, Band F
+--------------------------------------------------------------------------------
+Column: Last_Connections
+Type: numerical
+Unique count (including NaN): 124
+Missing: 0 (0.00%)
+Values: 124 unique values (showing first 50): 1.0, 0.0, 3.0, 2.0, 5.0, 4.0, 9.0, 16.0, 7.0, 6.0, 10.0, 12.0, 11.0, 8.0, 13.0, 15.0, 20.0, 18.0, 14.0, 19.0, 21.0, 17.0, 22.0, 24.0, 28.0, 26.0, 51.0, 32.0, 23.0, 34.0, 30.0, 27.0, 43.0, 25.0, 33.0, 37.0, 39.0, 41.0, 42.0, 178.0, 31.0, 56.0, 77.0, 197.0, 49.0, 54.0, 46.0, 73.0, 35.0, 44.0
+--------------------------------------------------------------------------------
+Column: Anchor_Group
+Type: categorical
+Unique count (including NaN): 9
+Missing: 0 (0.00%)
+Values (9): 1, 2, 2, 3, 4 to 9, 10+, 1, Unknown, Independent
+--------------------------------------------------------------------------------
+Column: Renewal_Year
+Type: numerical
+Unique count (including NaN): 5
+Missing: 0 (0.00%)
+Values (5): 2024, 2025, 2026, 2023, 2050
+--------------------------------------------------------------------------------
+Column: churn_label
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0, 1
+--------------------------------------------------------------------------------
+Column: Prospect_Status_Group
+Type: categorical
+Unique count (including NaN): 11
+Missing: 0 (0.00%)
+Values (11): Retained, Churned_Accreditation, Churned_Business, At_Risk_Disengaging, At_Risk_Engaging, Churned_Competitor, Churned_Price, Churned_Service, Unknown, Retained_Pending, Churned_Disengaged
+--------------------------------------------------------------------------------
+Column: is_new_customer
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0, 1
+--------------------------------------------------------------------------------
+Column: payment_timeframe_missing
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0, 1
+--------------------------------------------------------------------------------
+Column: Audit_Status_Group
+Type: categorical
+Unique count (including NaN): 8
+Missing: 0 (0.00%)
+Values (8): Accredited, Renewal_Failed, Renewal_In_Progress, Initial_In_Progress, Initial_Failed, Suspended_Failed, Withdrawn, Unknown
+--------------------------------------------------------------------------------
+Column: rc_total_calls
+Type: numerical
+Unique count (including NaN): 11
+Missing: 0 (0.00%)
+Values (11): 0.0, 1.0, 3.0, 2.0, 5.0, 4.0, 6.0, 7.0, 9.0, 8.0, 10.0
+--------------------------------------------------------------------------------
+Column: rc_Serious_Complaint
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Other_Complaint
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Discussion_on_Price_Increase
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Renewal_Impact_Due_to_Price_Increase
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Discount_or_Waiver_Requested
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Call_Reschedule_Request
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Agent_Flagged_Membership_Status_Alert
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Agent_Renewal_Initiation
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Explicit_Competitor_Mention
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Explicit_Switching_Intent
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Mentioned_Competitors
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Price_Switching_Mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Customer_Asked_For_Justification
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Discount_Offered
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Membership_Renewal_Decision
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Percentage_Price_Increase_Mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_Monetary_Price_Increase_Mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: rc_call_direction
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, Outbound, Inbound
+--------------------------------------------------------------------------------
+Column: rc_customer_response
+Type: categorical
+Unique count (including NaN): 5
+Missing: 0 (0.00%)
+Values (5): No_Interaction, Not Mentioned, Neutral, Negative, Positive
+--------------------------------------------------------------------------------
+Column: rc_competitor_value_comparison
+Type: categorical
+Unique count (including NaN): 4
+Missing: 0 (0.00%)
+Values (4): No_Interaction, No Comparison, Better Value, Similar Value
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_account_information
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_accreditation___certification
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_audit
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_auto___automatic
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_client_requirement
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_cost___price___too_expensive
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_customer_service___support
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_financial_struggles___business_problems
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_lack_of_benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_left___not_with_client_anymore
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_others
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_payment___invoice_issue
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_portal___technical_issues
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_process_issues
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_unnecessary___not_needed
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_churn_cat_value_of_service
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_account_information
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_accreditation_and_certification
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_assessment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_audit
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_billings_and_invoices
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_cancellation_and_refunds
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_compliance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_customer_service
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_discounts
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_financial_hardship
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_insurance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_login_and_access
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_others
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_package_and_benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_payment_issues
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_portal_and_technical_issues
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_price_increase___rise_and_value
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_privacy_and_security
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_process_and_auto_renewal_issues
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_quality_and_satisfaction
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_complaint_cat_sales_and_marketing
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_agreement___acceptance___acknowledgement
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_cancellation
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_clarification___justification___inquiry
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_customer_retention
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_discount___offer
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_dissatisfaction___concern___complaint___frustration
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_financial_hardship___struggle
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_hesitation
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_negotiation
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_other
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_payment___billing
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_reaction_cat_value
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_accreditation_and_certification
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_annual
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_assessment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_audit
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_auto___automatic
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_cancellation___termination___non_renewal___closure
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_customer_service___support
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_discounts_and_offers
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_discussion___introduction___inquiry
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_expiration___due
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_insurance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_issues_and_problems
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_others
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_packages_and_schemes
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_payment_and_billings___invoice
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_pitch_cat_price_and_cost
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_accreditation_and_certification
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_agreement
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_assessment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_audit
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_auto___automatic
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_response_cat_benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_cancellation___termination___non_renewal___withdrawal
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_communication
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_confusion___uncertainty___hesitation
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_discount_and_offer
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_financial_hardship___struggles
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_insurance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_others
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_package
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_payments_and_billings___invoice
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_price_and_cost
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_quality___value___satisfaction_of_service
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_refund
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_response_cat_technical
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_account_information
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_accreditation_and_certification
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_assessment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_audit
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_auto___automatic
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_benefits_and_package
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_cancellation___termination___closure
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_complaints
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_confirmation___acceptance___agreement
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_customer_communication
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_customer_retention
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_customer_service___support
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_discount_and_offer
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_insurance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_others
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_payment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_price_and_cost
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_refund
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_agent_response_cat_technical
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_desire_cancel_ambiguous
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_desire_cancel_desired_to_cancel
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_desire_cancel_renewed
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_business_operational_efficiency___justification
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_change_in_band
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_change_in_package
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_compliance___accreditation___certification_value
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_contractual___documentation_clarity
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_customer_support___service_excellence
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_discount_removal___vat_inclusion
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_discounts___incentives
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_employee_count___value
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_external_factors
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_incentive_offered
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_market___industry_alignment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_membership___subscription
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_payment_flexibility___options
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_payment_terms___renewal_conditions
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_pricing___cost___payments
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_pricing_adjustments_decrease
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_pricing_adjustments_increase
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_renewal___upgrade_incentives
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_technology___system_reliability___investment
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_value_proposition___roi
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_justification_cat_value_of_product
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_accreditation___compliance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_business_growth___development
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_communication___transparency
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_contractual_and_legal_aspects
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_customer_relationship___value
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_customer_support___service
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_discounts___incentives
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_incentive___support_offered
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_membership___loyalty_benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_miscellaneous___uncategorized
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_payment_convenience
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_payment_terms___renewal_conditions
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_price_adjustments_decrease
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_price_adjustments_increase
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_pricing___cost___payments
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_product_features___upgrades
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_security___trust
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_service_quality___reliability
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_strong_client_relationship
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_training___skill_development
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_renewal_reason_cat_value_of_product
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_account_management___relationships
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_accreditation___compliance
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_adjusted_account_or_package
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_cancellation___termination
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_contracts___agreements
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_customer_feedback___concerns
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_customer_retention___growth
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_customer_service___support
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_incentive___support_offered
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_membership___partnerships_benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_negotiation___review
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_offers___incentives
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_payment___billing_options
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_payment_convenience
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_payment_terms___renewal_conditions
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_service___product_improvement
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_uncategorized___miscellaneous
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_cancel_response_cat_value_of_product
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_accreditation___compliance___trust
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_business_growth___opportunities
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_cancellation
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_communication___relationships
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_contract___renewal_processes
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_customer_service___support
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_financial_incentives___cost_effectiveness
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_incentive___support_offered
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_non_renewal___cancellation
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_payment_transparency___flexibility
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_payment_convenience
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_payment_terms___renewal_conditions
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_strong_client_relationship
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_value_proposition___benefits
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: rc_stay_arg_cat_value_of_product
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: cc_total_calls
+Type: numerical
+Unique count (including NaN): 7
+Missing: 0 (0.00%)
+Values (7): 0.0, 1.0, 2.0, 3.0, 4.0, 6.0, 7.0
+--------------------------------------------------------------------------------
+Column: cc_care_package_discussed_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_urgency_getting_on_site_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_external_consultant_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_agent_cross_sell_attempt_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_customer_issues_concerns_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_business_struggles_financial_hardship_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_questionnaire_completion_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_chasing_response_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_issues_within_questionnaire_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_login_issues_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_platform_issues_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_dissatisfaction_time_to_complete_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_process_complexity_concerns_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_questions_harder_than_expected_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_dissatisfaction_support_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_pricing_mentioned_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_pricing_sentiment_impact_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_refund_discussed_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_suggest_leave_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_complained_max
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_start_score_mean
+Type: numerical
+Unique count (including NaN): 18
+Missing: 0 (0.00%)
+Values (18): 0.0, 50.0, 20.0, 80.0, 65.0, 60.0, 43.333333333333336, 55.0, 40.0, 45.0, 30.0, 53.333333333333336, 35.0, 100.0, 57.5, 52.5, 70.0, 25.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_start_score_min
+Type: numerical
+Unique count (including NaN): 8
+Missing: 0 (0.00%)
+Values (8): 0.0, 50.0, 20.0, 80.0, 60.0, 40.0, 30.0, 100.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_start_score_last
+Type: numerical
+Unique count (including NaN): 8
+Missing: 0 (0.00%)
+Values (8): 0.0, 50.0, 20.0, 80.0, 60.0, 40.0, 30.0, 100.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_end_score_mean
+Type: numerical
+Unique count (including NaN): 30
+Missing: 0 (0.00%)
+Values (30): 0.0, 90.0, 60.0, 80.0, 70.0, 85.0, 50.0, 100.0, 86.66666666666667, 95.0, 83.33333333333333, 20.0, 65.0, 75.0, 73.33333333333333, 40.0, 76.66666666666667, 87.5, 92.5, 30.0, 77.5, 10.0, 88.33333333333333, 45.0, 55.0, 78.57142857142857, 25.0, 52.5, 72.5, 35.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_end_score_min
+Type: numerical
+Unique count (including NaN): 12
+Missing: 0 (0.00%)
+Values (12): 0.0, 90.0, 60.0, 80.0, 50.0, 100.0, 95.0, 20.0, 70.0, 40.0, 30.0, 10.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_end_score_last
+Type: numerical
+Unique count (including NaN): 12
+Missing: 0 (0.00%)
+Values (12): 0.0, 90.0, 60.0, 80.0, 50.0, 100.0, 95.0, 20.0, 70.0, 40.0, 30.0, 10.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_overall_score_mean
+Type: numerical
+Unique count (including NaN): 39
+Missing: 0 (0.00%)
+Values (39): 0.0, 85.0, 40.0, 80.0, 65.0, 90.0, 67.5, 70.0, 50.0, 100.0, 95.0, 86.66666666666667, 75.0, 87.5, 60.0, 55.0, 83.33333333333333, 20.0, 82.5, 72.5, 77.5, 76.66666666666667, 73.33333333333333, 91.25, 92.0, 78.33333333333333, 30.0, 86.25, 81.66666666666667, 10.0, 56.66666666666666, 88.33333333333333, 77.14285714285714, 66.66666666666667, 68.75, 63.75, 88.75, 35.0, 45.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_overall_score_min
+Type: numerical
+Unique count (including NaN): 17
+Missing: 0 (0.00%)
+Values (17): 0.0, 85.0, 40.0, 80.0, 65.0, 90.0, 50.0, 70.0, 100.0, 95.0, 60.0, 75.0, 55.0, 20.0, 92.0, 30.0, 10.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_overall_score_last
+Type: numerical
+Unique count (including NaN): 17
+Missing: 0 (0.00%)
+Values (17): 0.0, 85.0, 40.0, 80.0, 65.0, 90.0, 70.0, 50.0, 100.0, 95.0, 60.0, 75.0, 55.0, 20.0, 92.0, 30.0, 10.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_issues_score_mean
+Type: numerical
+Unique count (including NaN): 34
+Missing: 0 (0.00%)
+Values (34): 0.0, 85.0, 20.0, 80.0, 90.0, 100.0, 95.0, 40.0, 86.66666666666667, 70.0, 50.0, 87.5, 82.5, 77.5, 72.5, 75.0, 86.25, 91.25, 60.0, 83.33333333333333, 88.33333333333333, 30.0, 10.0, 63.333333333333336, 62.5, 67.5, 71.42857142857143, 53.333333333333336, 65.0, 81.66666666666667, 55.0, 63.75, 52.5, 42.5
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_issues_score_min
+Type: numerical
+Unique count (including NaN): 16
+Missing: 0 (0.00%)
+Values (16): 0.0, 85.0, 20.0, 80.0, 90.0, 100.0, 95.0, 40.0, 60.0, 50.0, 70.0, 75.0, 30.0, 10.0, 65.0, 55.0
+--------------------------------------------------------------------------------
+Column: cc_contractor_sentiment_issues_score_last
+Type: numerical
+Unique count (including NaN): 16
+Missing: 0 (0.00%)
+Values (16): 0.0, 85.0, 20.0, 80.0, 90.0, 100.0, 95.0, 40.0, 50.0, 70.0, 60.0, 75.0, 30.0, 10.0, 65.0, 55.0
+--------------------------------------------------------------------------------
+Column: cc_call_initiated_by
+Type: categorical
+Unique count (including NaN): 4
+Missing: 0 (0.00%)
+Values (4): No_Interaction, Agent, Customer, Not Relevant
+--------------------------------------------------------------------------------
+Column: cc_sentiment_dissatisfied
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: cc_sentiment_neutral
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: cc_sentiment_satisfied
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: cc_package_express
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: cc_package_premier
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: cc_package_standard
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: em_total_emails
+Type: numerical
+Unique count (including NaN): 4
+Missing: 0 (0.00%)
+Values (4): 0.0, 1.0, 2.0, 3.0
+--------------------------------------------------------------------------------
+Column: crm_accreditation_completed
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_timely_completion
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_progress_towards_accreditation
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_delays_in_accreditation
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_contractor_suggested_leave
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_contractor_engagement
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_dts_or_ssip_mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_customer_payment_intention
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_competitors_mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_platform_issues_raised
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_agent_chased_contractor
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_accreditation_issues
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_membership_overdue
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_dissatisified_with_renewal_price
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_customer_complained
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_refund_mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_negative_customer_experience
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_dissatisfaction_with_support
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_financial_hardship_mentioned
+Type: numerical
+Unique count (including NaN): 2
+Missing: 0 (0.00%)
+Values (2): 0.0, 1.0
+--------------------------------------------------------------------------------
+Column: crm_contractor_sentiment_score
+Type: numerical
+Unique count (including NaN): 23
+Missing: 0 (0.00%)
+Values (23): 0.0, 50.0, 80.0, 90.0, 30.0, 100.0, 20.0, 70.0, 40.0, 96.0, 75.0, 35.0, 65.0, 45.0, 25.0, 84.0, 98.0, 49.0, 60.0, 31.0, 55.0, 70.5, 16.0
+--------------------------------------------------------------------------------
+Column: crm_agent_chase_count
+Type: numerical
+Unique count (including NaN): 16
+Missing: 0 (0.00%)
+Values (16): 0.0, 1.0, 2.0, 0.5, 3.0, 5.0, 1.5, 2.5, 7.0, 4.0, 6.0, 0.6666666666666666, 30.0, 8.0, 10.0, 11.0
+--------------------------------------------------------------------------------
+Column: crm_auto_renewal_status
+Type: numerical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): 0.0, 2.0, 1.0
+--------------------------------------------------------------------------------
+Column: em_sentiment_dissatisfied
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: em_sentiment_neutral
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: em_sentiment_satisfied
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: em_membership_level_accredited
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, True, False
+--------------------------------------------------------------------------------
+Column: em_membership_level_in_progress
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: em_membership_level_premier
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: em_membership_level_standard
+Type: categorical
+Unique count (including NaN): 3
+Missing: 0 (0.00%)
+Values (3): No_Interaction, False, True
+--------------------------------------------------------------------------------
+Column: proforma_delay
+Type: numerical
+Unique count (including NaN): 101
+Missing: 0 (0.00%)
+Values: 101 unique values (showing first 50): 60.0, 65.0, 61.0, 74.0, 76.0, 69.0, 66.0, 63.0, 75.0, 56.0, 70.0, 72.0, 77.0, 81.0, 67.0, 78.0, 83.0, 57.0, 62.0, 59.0, 71.0, 87.0, 84.0, 79.0, 64.0, 80.0, 58.0, 54.0, 73.0, 85.0, 82.0, 68.0, 88.0, 86.0, 53.0, 55.0, 52.0, 50.0, 47.0, 51.0, 48.0, 49.0, 46.0, 17.0, -2.0, -1.0, 44.0, 6.0, 14.0, 45.0
+--------------------------------------------------------------------------------
+Column: missing_proforma
+Type: numerical
+Unique count (including NaN): 1
+Missing: 0 (0.00%)
+Values (1): 0
+--------------------------------------------------------------------------------
